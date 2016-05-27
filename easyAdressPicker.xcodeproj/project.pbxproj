@@ -15,6 +15,7 @@
 		B570B7D91CF82E42008BB27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B570B7D71CF82E42008BB27A /* LaunchScreen.storyboard */; };
 		B570B7E41CF82E42008BB27A /* easyAdressPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B570B7E31CF82E42008BB27A /* easyAdressPickerTests.m */; };
 		B570B7EF1CF82E42008BB27A /* easyAdressPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B570B7EE1CF82E42008BB27A /* easyAdressPickerUITests.m */; };
+		B570B7FD1CF83279008BB27A /* pcd.plist in Resources */ = {isa = PBXBuildFile; fileRef = B570B7FC1CF83279008BB27A /* pcd.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B570B7EA1CF82E42008BB27A /* easyAdressPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyAdressPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B570B7EE1CF82E42008BB27A /* easyAdressPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = easyAdressPickerUITests.m; sourceTree = "<group>"; };
 		B570B7F01CF82E42008BB27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B570B7FC1CF83279008BB27A /* pcd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pcd.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				B570B7D51CF82E42008BB27A /* Assets.xcassets */,
 				B570B7D71CF82E42008BB27A /* LaunchScreen.storyboard */,
 				B570B7DA1CF82E42008BB27A /* Info.plist */,
+				B570B7FC1CF83279008BB27A /* pcd.plist */,
 				B570B7C91CF82E42008BB27A /* Supporting Files */,
 			);
 			path = easyAdressPicker;
@@ -245,6 +248,7 @@
 			files = (
 				B570B7D91CF82E42008BB27A /* LaunchScreen.storyboard in Resources */,
 				B570B7D61CF82E42008BB27A /* Assets.xcassets in Resources */,
+				B570B7FD1CF83279008BB27A /* pcd.plist in Resources */,
 				B570B7D41CF82E42008BB27A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +504,7 @@
 				B570B7F51CF82E42008BB27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B570B7F61CF82E42008BB27A /* Build configuration list for PBXNativeTarget "easyAdressPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +513,7 @@
 				B570B7F81CF82E42008BB27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B570B7F91CF82E42008BB27A /* Build configuration list for PBXNativeTarget "easyAdressPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +522,7 @@
 				B570B7FB1CF82E42008BB27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
